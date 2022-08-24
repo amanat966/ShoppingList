@@ -1,5 +1,6 @@
-package amanat966.shoppinglist
+package amanat966.shoppinglist.activities
 
+import amanat966.shoppinglist.R
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
