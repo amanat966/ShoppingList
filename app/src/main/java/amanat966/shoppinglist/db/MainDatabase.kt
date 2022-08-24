@@ -12,6 +12,7 @@ import androidx.room.RoomDatabase
 @Database (entities = [LibraryItem::class, NoteItem::class,
     ShoppingListItem::class, ShoppingListNames::class], version = 1)
 abstract class MainDatabase : RoomDatabase() {
+    abstract fun getDao(): Dao
 
     companion object{
         @Volatile
